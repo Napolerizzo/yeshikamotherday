@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/([^/]+\\.(?:jpg|jpeg|png|gif|webp|svg))",
+      "dest": "/public/$1"
+    },
+    {
       "handle": "filesystem"
     },
     {
