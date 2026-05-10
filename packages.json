@@ -1,0 +1,21 @@
+{
+  "name": "mothers-day-card",
+  "version": "1.0.0",
+  "description": "A beautiful Mother's Day HTML webpage",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "keywords": [
+    "mothers-day",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
